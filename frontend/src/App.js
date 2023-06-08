@@ -5,7 +5,6 @@ import Spedizioni from "./spedizioni";
 import CreaSpedizione from "./creaSpedizione";
 import ModificaSpedizioni from "./ModificaSpedizione";
 import Calendario from "./Calendario";
-import Tabella from "./Tabella";
 
 function App() {
   return (
@@ -16,7 +15,6 @@ function App() {
           <Route path="/crea" element={<CreaSpedizione />}></Route>
           <Route path="/modifica/" element={<ModificaSpedizioni />}></Route>
           <Route path="/calendario/" element={<Calendario />}></Route>
-          <Route path="/tabella/" element={<Tabella />}></Route>
         </Routes>
       </BrowserRouter>
     </div>
